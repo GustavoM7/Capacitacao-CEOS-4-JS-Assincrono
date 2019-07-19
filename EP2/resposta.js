@@ -1,2 +1,13 @@
-Você pode deletar ou editar esse arquivo para que esta pasta contenha 
-o conteúdo que responde o exercício proposto correspondente.
+    // Importação do FileSystem
+	const fs = require("fs");
+	
+	// Função de leitura de arquivo
+	fs.readFile("teste.txt", 'utf8', (err, data)=>{
+		//...
+	});
+	//...
+	
+	// Função de escrita de arquivo
+	fs.writeFile("destino.txt", DADOSAQUI, ()=>{
+		//...
+	});

@@ -1,2 +1,3 @@
-Você pode deletar ou editar esse arquivo para que esta pasta contenha 
-o conteúdo que responde o exercício proposto correspondente.
+setInterval(() =>{
+    console.log(new  Date().getTime());
+}, 1000);
